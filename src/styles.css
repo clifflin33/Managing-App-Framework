@@ -1,3 +1,4 @@
+/* styling for main function */
 .tabs {
     border: 1px solid #ccc;
     display: flex;
@@ -38,3 +39,59 @@
 .tab-content--active {
     display: block;
 }
+
+/* styling for tab 2 */
+
+.table-container {
+    overflow: hidden;
+  }
+  
+.table-scroll {
+    overflow-y: auto;
+    max-height: 400px; /* Set the maximum height for the table container */
+}
+  
+#dataTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+  
+#dataTable th,
+#dataTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+#dataTable th {
+    background-color: #f2f2f2;
+}
+  
+#dataTable tr:hover {
+    background-color: #f2f2f2;
+}
+  
+.add-row-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.table2--button {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px 5px;
+}
+
+
+.editable {
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  
