@@ -2,7 +2,6 @@
 .tabs {
     border: 1px solid #ccc;
     display: flex;
-    height: 85%;
 }
 .sidebar {
     width: 125px;
@@ -39,7 +38,39 @@
 .tab-content--active {
     display: block;
 }
-
+/* styling for tab 1*/
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .dashboard-card {
+    flex: 1 0 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-chart {
+    flex: 1 0 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .dashboard-summary {
+    flex: 1 0 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
 /* styling for tab 2 */
 
 .table-container {

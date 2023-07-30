@@ -94,8 +94,11 @@ function createInitialRow() {
   }
 
   function removeRow(row) {
-    const tableBody = document.getElementById("tableBody");
-    tableBody.removeChild(row);
+    const isConfirmed = confirm("Are you sure you want to remove this row?");
+    if (isConfirmed) {
+        const tableBody = document.getElementById("tableBody");
+        tableBody.removeChild(row);
+    }
   }
   
   function onCellClick(event) {
